@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<p><link rel="stylesheet" type="text/css" href="RealestDealestrevialist.css"></p>
+ <body>
+    <button><span class="arrow-column column1"><</span></button>
+    <button class="img-button"><span class="img-column column2">+</span></button>
+    <button><span class="arrow-column column3">></span></button>
+    <p><span ><button3><a class="linkus" href="https://malfunk.github.io/RealDeal.net/"> .v </a></button3></span>
+    <span class="rowblockz"> Add Category </span></p>
+    <p>x <input type="text" id="x-variable"></input><button onClick="buttonClick()"> Yes</button></p>
+    <p><output type="text" ></output></p>
+    <p><h1>terms of policy and privacy:
+    <button type="button" onclick="document.getElementById('show').style.display='block'">Show</button>
+    <button type="button" onclick="document.getElementById('show').style.display='none'">Hide</button></h1></p>
+    <p id="show" style="display:none">We have none... Select "Hide", to close them again.</p>
+  <script>
+    one=null, two=null
+    function buttonClick(){
+    x=document.getElementById("x-variable").value;
+    alert(x)
+    }
+    function buttonClickMalfunkx(){ 
+      if(one!==null){
+      two="x"  
+      } else {
+        one="x"
+      } 
+    }
+    function buttonClickMalfunky(){
+      if(one!==null){
+      two="y"  
+      } else {
+        one="y"
+      } 
+    } 
+   function myFunction() {
+   document.getElementById("demo").innerHTML = "Ok... you won...";
+   }
+  </script>
+    <p id="demo">I'll defeat you!
+    <button type="button" onClick="myFunction()">No, you won't...</button></p>
+   <p id="rp">I'll defeat you!
+   <button type="button" onClick="buttonClickMalfunkx()">No, you won't...</button>
+   <button type="button" onClick="buttonClickMalfunky()">Ok, I give up...</button></p>
+ </body>
+</html>

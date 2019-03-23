@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(12, 12, 12);
+}
+span {
+    background-color: rgb(20, 20, 20);;
+}
+.arrow-column {
+    margin-top: 10cm;
+    margin-bottom: 10cm;
+    font: 1em arial;
+    font-size: 300px;
+    color: rgb(236, 236, 236);
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 30cm;
+    margin-top: 30cm;
+    background-color: rgb(20, 20, 20)
+}
+.img-column {
+    font: 1em arial;
+    font-size: 300px;
+    color: white; 
+    text-align: center;
+    width: 40cm;
+}
+.column2 {
+    margin-left: 10.75cm;
+    margin-right: 10.75cm;
+}
+.column3 {
+    text-align: right;
+}
+.img-button {
+    background-color: rgb(20, 20, 20);
+    font-size: 287px;
+    margin-left: 0.7.5cm white;
+    margin-right: 0.7.5cm white;
+    
+} 
+.rowblockz {
+    font: 1em arial;
+    font-size: 28px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+button3 {
+    font: 1em arial;
+    font-size: 28px;
+    color: white;
+    background-color: white;    
+}
+.linkus {
+    font: 1em arial;
+    text-decoration: none;
+    color: white;
+    margin-left: 0.1cm;
+    margin-right: 0.1cm;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+}
+.rowblockz {
+    text-align: center;
+    margin: 0.25cm;
+}
+p {
+    color: white;
+}
+h1 {
+    color: white;
+}
